@@ -1,0 +1,133 @@
+#footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 10%;
+  position: relative;
+  margin-bottom: 100px;
+}
+.footer-head {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  display: block;
+}
+.footer-msg {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: cadetblue;
+  width: 400px;
+  height: 400px;
+  margin-left: 30%;
+  border-radius: 25px;
+  padding: 28px;
+}
+
+.footer-msg input {
+  width: 270px;
+  height: 40px;
+  margin-left: 50px;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.footer-msg textarea {
+  width: 270px;
+  margin-left: 50px;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer-msg button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  margin-left: 80px;
+  background-color: rgb(0, 57, 80);
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footer-contact a {
+  text-decoration: none;
+  color: white;
+}
+.socials {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-icons {
+  width: 40px;
+  height: 40px;
+}
+.copyright {
+  margin-left: 40%;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: serif;
+  padding-bottom: 30px;
+  color: white;
+}
+.email-footer {
+  font-size: 24px;
+}
+@media screen and (max-width: 1100px) {
+  #footer {
+    flex-direction: column;
+    margin-top: 0px;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+  .socials {
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-msg {
+    margin: 0;
+    width: 100%;
+    position: relative;
+  }
+  .footer-msg input {
+    margin-left: 20px;
+  }
+  .footer-msg textarea {
+    margin-left: 20px;
+  }
+  .socials {
+    margin-left: 20px;
+  }
+  .footer-head {
+    font-size: 30px;
+  }
+  .footer-contact {
+    margin-right: 30px;
+  }
+  .footer-msg button {
+    margin-left: 40px;
+  }
+  .copyright {
+    margin-left: 15%;
+  }
+}

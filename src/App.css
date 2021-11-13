@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735, #090a0f);
+  font-family: "Anton", sans-serif;
+  color: white;
+}
+
+h1,
+p {
+  color: white;
+}

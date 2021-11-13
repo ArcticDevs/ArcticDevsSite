@@ -1,0 +1,50 @@
+#tech-stack {
+  position: relative;
+  margin-top: 180px;
+  text-align: center;
+}
+.full-stack-img {
+  display: block;
+}
+.stack-one-img {
+  display: none;
+}
+.stack-two-img {
+  display: none;
+}
+.stack-one-smalles-img {
+  display: none;
+}
+.stack-two-smalles-img {
+  display: none;
+}
+
+#tech-stack h1 {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 50px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+  .full-stack-img {
+    display: none;
+  }
+  .stack-one-smalles-img {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .stack-two-img {
+    display: none;
+  }
+  .stack-one-img {
+    display: none;
+  }
+  #tech-stack h1 {
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 50px;
+    font-weight: 100;
+  }
+}
