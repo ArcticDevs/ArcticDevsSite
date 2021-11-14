@@ -32,7 +32,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  right: -85px;
+  right: -105px;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -49,7 +49,7 @@
   background-color: transparent;
   height: 80px;
   display: flex;
-  left: -85px;
+  left: -105px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -115,9 +115,10 @@
     width: 40px;
     height: 40px;
   }
-  .testimonial-arrow-left,
+  .testimonial-arrow-left {
+    left: -85px;
+  }
   .testimonial-arrow-right {
-    width: 60px;
-    height: 60px;
+    right: -85px;
   }
 }

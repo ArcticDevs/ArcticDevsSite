@@ -28,7 +28,9 @@ const Testimonial = () => {
   return (
     <div id = 'testimonials'>
         <h1>TESTIMONIALS</h1>
-      <div className="testimonial" > 
+      <div className="testimonial"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"> 
         <Slider  prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" />
           <Card img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" />

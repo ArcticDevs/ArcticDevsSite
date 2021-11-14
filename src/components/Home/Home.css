@@ -16,12 +16,14 @@
   font-size: 50px;
 }
 
-.curve-img {
-  position: "absolute";
-  width: "50%";
-  height: "50%";
-  z-index: "-1";
-  top: "60%";
+.img-curve {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+  bottom: -10px;
+  min-width: 700px;
+  left: 0;
 }
 
 .vector-down {
@@ -86,6 +88,7 @@
     /* margin-left: 0%; */
   }
   .home-title h1 {
+    margin-top: 20%;
     color: white;
     padding: 0 5vw;
     font-family: serif;
@@ -108,5 +111,8 @@
     line-height: 21px;
     letter-spacing: 2.5px;
     font-family: "Playfair Display", serif;
+  }
+  .img-curve {
+    left: -15%;
   }
 }

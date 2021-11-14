@@ -15,7 +15,7 @@ const Contact = () => {
      <h1 className='footer-head'>Contact Us</h1>
     <section id = 'footer' className='container'>
    
-    <div className='footer-contact'>
+    <div className='footer-contact d-flex justify-content-center'>
         <p>
         <i class="fas fa-phone fa-1x"></i><br /><br />
             <a href="tel:+917414027000 ">+91 7414027000 </a><br /><br />
@@ -25,7 +25,7 @@ const Contact = () => {
 
         <p className='email-footer'><i class="fas fa-envelope"></i>    <a href="mailto:connect@arcticdevs.com">connect@arcticdevs.com</a></p>
 
-        <div className='socials d-flex justify-content-between'>
+        <div className='socials'>
         <a href=""><img className='footer-icons' src={`./social-media/fb.png`} alt="" /></a>
         {/* <a href=""> <img className='footer-icons' src={`./social-media/fiver.png`} alt="" /></a> */}
        <a href="https://www.instagram.com/arctic_devs/"> <img className='footer-icons' src={`./social-media/insta.png`} alt="" /></a>
@@ -44,7 +44,7 @@ const Contact = () => {
     </section>
 
     <div className='copyright'>
-        <i class="far fa-copyright"></i>  {date} - Arctic devs
+         <p> <i class="far fa-copyright"></i> {date} - Arctic devs</p>
     </div>
 </>)
 }

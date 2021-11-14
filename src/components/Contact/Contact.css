@@ -20,28 +20,27 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  background-color: cadetblue;
-  width: 400px;
-  height: 400px;
+  justify-content: space-between;
+  background-color: rgba(66, 221, 255, 0.65);
+  width: 350px;
+  height: 350px;
   margin-left: 30%;
   border-radius: 25px;
   padding: 28px;
 }
 
 .footer-msg input {
-  width: 270px;
+  width: 100%;
   height: 40px;
-  margin-left: 50px;
   outline: none;
   border-radius: 10px;
+  margin-left: 15px;
   text-align: center;
   font-size: 18px;
-  margin-bottom: 30px;
 }
 .footer-msg textarea {
-  width: 270px;
-  margin-left: 50px;
+  width: 100%;
+  margin-left: 15px;
   outline: none;
   border-radius: 10px;
   text-align: center;
@@ -52,7 +51,7 @@
   margin-top: 20px;
   width: 200px;
   height: 40px;
-  margin-left: 80px;
+  margin-left: 50px;
   background-color: rgb(0, 57, 80);
   color: white;
   font-size: 17px;
@@ -72,7 +71,7 @@
   width: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .footer-icons {
@@ -80,15 +79,17 @@
   height: 40px;
 }
 .copyright {
-  margin-left: 40%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
   font-size: 30px;
   font-weight: 200;
   font-family: serif;
-  padding-bottom: 30px;
   color: white;
 }
 .email-footer {
-  font-size: 24px;
+  font-size: 20px;
+  padding-left: 20px;
 }
 @media screen and (max-width: 1100px) {
   #footer {
@@ -110,13 +111,13 @@
     position: relative;
   }
   .footer-msg input {
-    margin-left: 20px;
+    margin-left: 0;
   }
   .footer-msg textarea {
-    margin-left: 20px;
+    margin-left: 0;
   }
   .socials {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .footer-head {
     font-size: 30px;
@@ -128,6 +129,22 @@
     margin-left: 40px;
   }
   .copyright {
-    margin-left: 15%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .footer-msg {
+    margin-left: 3px;
+  }
+  .footer-msg input {
+    margin: 100%;
+    width: 230px;
+  }
+  .footer-msg textarea {
+    margin: 100%;
+    width: 230px;
+  }
+  .footer-msg button {
+    margin-left: 25px;
   }
 }
