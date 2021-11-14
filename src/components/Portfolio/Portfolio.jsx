@@ -1,98 +1,107 @@
-import React,{useState} from 'react'
 import './Portfolio.css'
-import AOS from 'aos';
-import "aos/dist/aos.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
- AOS.init({
-      offset: 200,
-      duration: 500,
-      easing: "ease-in-quad",
-      delay: 100,
-    });
-
-
-
-
-
-
-
+import React, { useState } from 'react'
 
 const Portfolio = () => {
 
     const [contentMore, setcontentMore] = useState(false)
 
-    const showMore = () =>{
-       setcontentMore(!contentMore)
+    const showMore = () => {
+        setcontentMore(!contentMore)
     }
-  
+
     return (<>
-        <section id='projects'  className='container-fluid'>
+        <section id='projects' className='container-fluid'>
             <h1>Portfolio</h1>
-           <div className='row'  data-aos="fade-up"
-     data-aos-duration="3000" >
-            <img src={`./screenshots/one.png`}   className='col-md-12 col-lg-6 col-sm-12'  alt="" />
-            <div className='project-body col-md-12 col-sm-12 col-lg-6' >
-                <h1>Project 1</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                <button>View Project<i class="fas fa-arrow-right"></i></button>
-            </div>
-           </div> 
-           <div className='project-two row' data-aos="fade-up"
-     data-aos-duration="3000"  >
-            <img src={`./screenshots/two.png`} className='col-md-12 col-lg-6 col-sm-12' alt="" />
-            <div className='project-body col-md-12 col-sm-12 col-lg-6' >
-                <h1>Project 2</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                <button>View Project<i class="fas fa-arrow-right"></i></button>
-            </div>
-             
-           </div>
-           <div className='row' data-aos="fade-up"
-     data-aos-duration="3000" >
-            <img src={`./screenshots/three.png`}  className='col-md-12 col-lg-6 col-sm-12' alt="" />
-            <div className='project-body col-md-12 col-sm-12 col-lg-6'  >
-                <h1>Project 3</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                <button>View Project<i class="fas fa-arrow-right fa-lg"></i></button>
-            </div>
-           </div>
-            <div  className={contentMore ?  'extra-projects': 'none' }>
+            <div className="container">
+                <div className='row' data-aos="fade-up">
+                    <div className='col-md-6 col-12 d-flex align-items-center'>
+                        <img src={`./screenshots/itc.jpeg`} alt="" className='project-img' />
+                    </div>
+                    <div className='project-body col-md-6 col-12 ps-5' >
+                        <h1 className='project-title'>ITC Supreme</h1>
+                        <p>A Fullstack newLetter website with subscription system, admin and staff panels and with push notifications enabled. Its also a PWA.</p>
+                        <div className="viewProject">
+                            <a href="https://itcsupreme.com/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div className='row' data-aos="fade-up">
+                    <div className='project-body col-md-6 col-12 ps-5 order-2 order-md-1' >
+                        <h1 className='project-title'>Vax Trax Global</h1>
+                        <p>An American startup to track the vaccine statuses for travelling passengers and for authorities that require vaccine certification.</p>
+                        <div className="viewProject">
+                            <a href="https://vaxtraxglobal-front.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                    <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>
+                        <img src={`./screenshots/vtg.jpeg`} alt="" className='project-img' />
+                    </div>
+                </div>
+                <div className='row' data-aos="fade-up">
+                    <div className='col-md-6 col-12 d-flex align-items-center'>
+                        <img src={`./screenshots/discordhome.jpeg`} alt="" className='project-img' />
+                    </div>
+                    <div className='project-body col-md-6 col-12 ps-5' >
+                        <h1 className='project-title'>Discord Home </h1>
+                        <p>A norway based startup aimed to promote discord channels within each category.</p>
+                        <div className="viewProject">
+                            <a href="https://discordhome.com/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
 
-            <div className='project-two row' data-aos="fade-up"
-     data-aos-duration="3000"  >
-            <img src={`./screenshots/two.png`} className='col-md-12 col-lg-6 col-sm-12' alt="" />
-            <div className='project-body col-md-12 col-sm-12 col-lg-6' >
-                <h1>Project 2</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                <button>View Project<i class="fas fa-arrow-right"></i></button>
-            </div>
-           </div>
 
-            <div className='row'>
-            <img src={`./screenshots/three.png`} data-aos="fade-up"  data-aos-duration="3000" className='col-md-12 col-lg-6 col-sm-12' alt="" />
-            <div className='project-body col-md-12 col-sm-12 col-lg-6'  >
-                <h1>Project 3</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                <button>View Project<i class="fas fa-arrow-right fa-lg"></i></button>
+                <div className={contentMore ? 'extra-projects' : 'none'}>
+                    <div className='row' data-aos="fade-up">
+                        <div className='project-body col-md-6 col-12 ps-5 order-2 order-md-1' >
+                            <h1 className='project-title'>Sports-Dex</h1>
+                            <p>A USA based startup which provides till date updated records of basketball players.</p>
+                            <div className="viewProject">
+                                <a href="https://sports-dex-53255.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                        <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>
+                            <img src={`./screenshots/sportsdex.jpeg`} alt="" className='project-img' />
+                        </div>
+                    </div>
+                    <div className='row' data-aos="fade-up">
+                        <div className='col-md-6 col-12 d-flex align-items-center'>
+                            <img src={`./screenshots/printribe.jpeg`} alt="" className='project-img' />
+                        </div>
+                        <div className='project-body col-md-6 col-12 ps-5' >
+                            <h1 className='project-title'>Printribe</h1>
+                            <p>An Indian startup to provide merchandise customization and an e-commerce store.</p>
+                            <div className="viewProject">
+                                <a href="https://printribe-frontend.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row' data-aos="fade-up">
+                        <div className='project-body col-md-6 col-12 ps-5 order-2 order-md-1' >
+                            <h1 className='project-title'>Braj Interiors</h1>
+                            <p>A portfolio design for a professional Indian heritage interior designer.</p>
+                            <div className="viewProject">
+                                <a href="https://braj-b633f.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                        </div>
+                        <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>
+                            <img src={`./screenshots/braj.jpeg`} alt="" className='project-img' />
+                        </div>
+                    </div>
+
+                    <div className="text-center">
+                        <button className='show-less' onClick={showMore}>Show less</button>
+                    </div>
+                </div>
+                <div className="text-center">
+                    <button style={contentMore ? { display: 'none' } : null} className='show-more' onClick={showMore}>Show More</button>
+                </div>
             </div>
-           </div>
-           
-            <div className='project-two row' data-aos="fade-up"
-     data-aos-duration="3000"  >
-            <img src={`./screenshots/two.png`} className='col-md-12 col-lg-6 col-sm-12' alt="" />
-            <div className='project-body col-md-12 col-sm-12 col-lg-6' >
-                <h1>Project 2</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
-                <button>View Project<i class="fas fa-arrow-right"></i></button>
-            </div>
-           </div>
-            
-            <button className='show-less' onClick={showMore}>Show less</button>
-            </div>
-            <button  style ={contentMore ? {display:'none'} : null} className='show-more' onClick={showMore}>Show More</button>
+
         </section>
-        </>
+    </>
     )
 }
 

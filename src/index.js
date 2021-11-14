@@ -1,7 +1,16 @@
+import "aos/dist/aos.css";
+
+import AOS from 'aos';
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import AOS from "aos";
+
+AOS.init({
+      offset: 200,
+      duration: 500,
+      easing: "ease-in-quad",
+      delay: 100,
+    });
 
 
 ReactDOM.render(

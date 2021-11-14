@@ -1,20 +1,21 @@
 #footer {
-  margin-top: 100px;
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin-left: 10%;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 15vh;
 }
 .footer-head {
   font-family: "Playfair Display", serif;
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 100;
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 40px;
+  margin-top: 15vh;
+  margin-bottom:5vh;
   display: block;
+  filter:drop-shadow(0 0 10px rgb(7, 146, 114));
+
 }
 .footer-msg {
   position: relative;
@@ -22,28 +23,36 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(66, 221, 255, 0.65);
-  width: 350px;
-  height: 380px;
-  margin-left: 30%;
+  background: linear-gradient(
+    180deg,
+    rgba(81, 235, 255, 0.588) 0%,
+    rgba(78, 236, 200, 0.602) 100%
+  );
+  min-height:60vh;
   border-radius: 25px;
-  padding: 28px;
+  padding: 35px 25px;
+  max-width:400px;
 }
 
 .footer-msg input {
   width: 100%;
   height: 40px;
   outline: none;
+  border:0;
   border-radius: 10px;
   margin-bottom: 10px;
-  text-align: center;
+  /* text-align: center; */
+  padding:0 10px;
   font-size: 18px;
+  margin-bottom:25px;
 }
 .footer-msg textarea {
   width: 100%;
   outline: none;
+  border:0;
   border-radius: 10px;
-  text-align: center;
+  /* text-align: center; */
+  padding:10px;
   font-size: 18px;
 }
 
@@ -52,24 +61,43 @@
   width: 50%;
   max-width: 200px;
   height: 40px;
-
-  background-color: rgb(0, 57, 80);
+  background: linear-gradient(
+    180deg,
+    rgba(4, 88, 136, 0.602) 0%,
+    rgba(13, 58, 126, 0.588) 100%
+  );
   color: white;
   font-size: 17px;
   border-radius: 10px;
+  border:0;
+  box-shadow: 0 0 5px rgb(112, 111, 111);
 }
 
 .footer-contact {
+  width:50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+}
+.mobileContainer{
+  text-align:left;
+  padding-left:100px;
+}
+
+.mobile{
+  width:270px;
+}
+.mobile i{
+margin-right:20px;
 }
 .footer-contact a {
   text-decoration: none;
   color: white;
 }
 .socials {
-  width: 300px;
+  width: 100%;
+  max-width:300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -83,28 +111,26 @@
   display: flex;
   width: 100%;
   justify-content: center;
-
-  font-size: 30px;
+  align-content: center;
+  font-size: 1.5rem;
   font-weight: 200;
   font-family: serif;
   color: white;
+  margin-bottom:8vh;
 }
 .email-footer {
   font-size: 20px;
-  padding-left: 20px;
+  border-bottom:2px solid #fff;
 }
 @media screen and (max-width: 1100px) {
   #footer {
     flex-direction: column;
     margin-top: 0px;
     justify-content: space-between;
-
-    margin-left: 0;
+    align-items:center;
   }
   .socials {
-    margin-top: 50px;
-    margin-left: 200px;
-    padding-bottom: 50px;
+    margin: 10vh 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -119,29 +145,23 @@
   .footer-msg textarea {
     margin-left: 0;
   }
-  .socials {
-    margin-left: 0px;
-  }
+
   .footer-head {
-    font-size: 30px;
+    font-size: 2rem;
   }
-  .footer-contact {
-    margin-right: 30px;
+
+  .mobileContainer{
+  margin-bottom:5vh;
+
   }
   .footer-msg button {
     margin-left: 0px;
   }
-  .copyright {
-    margin-left: 0;
-  }
+
 }
 @media screen and (max-width: 370px) {
   .footer-msg {
     margin-left: 3px;
-  }
-  .footer-msg input {
-  }
-  .footer-msg textarea {
   }
   .footer-msg button {
     margin-left: 0px;

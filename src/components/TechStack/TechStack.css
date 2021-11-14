@@ -1,20 +1,25 @@
 #tech-stack {
   position: relative;
-  margin-top: 180px;
+  margin-top: 15vh;
   text-align: center;
 }
+
 .full-stack-img {
   display: block;
 }
+
 .stack-one-img {
   display: none;
 }
+
 .stack-two-img {
   display: none;
 }
+
 .stack-one-smalles-img {
   display: none;
 }
+
 .stack-two-smalles-img {
   display: none;
 }
@@ -24,6 +29,7 @@
   font-family: "Playfair Display", serif;
   padding-bottom: 50px;
   font-weight: 100;
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
 }
 
 @media screen and (max-width: 500px) {

@@ -1,21 +1,40 @@
 #projects {
   margin-top: 150px;
-  text-align: center;
 }
 
-#projects h1 {
+#projects>h1 {
   font-family: "Playfair Display", serif;
   font-size: 60px;
   font-weight: 100;
   padding-bottom: 50px;
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+  text-align: center;
+}
+
+.project-title {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 5vh auto;
+  width: 70%;
+}
+
+.project-img {
+  max-width: 100%;
+  aspect-ratio: 2/1;
 }
 
 .project-body p {
   width: 70%;
-  margin-left: 100px;
   font-size: 22px;
   line-height: 30px;
   letter-spacing: 1px;
+  margin: auto;
+}
+
+.viewProject{
+width:70%;
+margin:auto;
 }
 
 .project-body button {
@@ -26,23 +45,23 @@
   color: white;
   background-color: inherit;
   font-size: 20px;
+  /* margin: 2rem auto; */
 }
+
 .project-body button i {
   margin-left: 30px;
 }
+
 .project-body button:hover {
   cursor: pointer;
   background-color: rgba(74, 77, 76, 0.267);
 }
+
 .row {
   padding-bottom: 100px;
 }
-.project-two {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.show-more,
-.show-less {
+
+.show-more, .show-less {
   margin-top: 30px;
   width: 220px;
   height: 50px;
@@ -52,28 +71,24 @@
   font-size: 20px;
   margin-bottom: 100px;
 }
+
 .extra-projects {
   display: block;
 }
+
 .none {
   display: none;
-}
-@media screen and (max-width: 1100px) {
-  /* .project-one,
-  .project-two,
-  .project-three {
-    flex-direction: column;
-  } */
 }
 
 @media screen and (max-width: 600px) {
   .project-body p {
-    margin-left: 50px;
     font-size: 20px;
-    letter-spacing: 1px;
   }
-  #projects h1 {
-    font-size: 35px;
+  #projects>h1 {
+    font-size: 2.2rem;
+  }
+  .project-title {
+    font-size: 1.9rem;
   }
   .show-more {
     margin-top: 0;
