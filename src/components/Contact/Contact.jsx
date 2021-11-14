@@ -99,7 +99,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="footer-msg">
-            <form>
+            <form onSubmit={sendMail}>
               <input
                 type="text"
                 name="name"
