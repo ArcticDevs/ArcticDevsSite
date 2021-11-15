@@ -19,18 +19,18 @@ const Portfolio = () => {
                     <div className='col-md-6 col-12 d-flex align-items-center'>
                         <img src={`./screenshots/itc.jpeg`} alt="" className='project-img' />
                     </div>
-                    <div className='project-body col-md-6 col-12 ps-5' >
-                        <h1 className='project-title'>ITC Supreme</h1>
-                        <p>A Fullstack newLetter website with subscription system, admin and staff panels and with push notifications enabled. Its also a PWA.</p>
+                    <div className='project-body col-md-6 col-12' >
+                        <h1 className='project-title text-center'>ITC Supreme</h1>
+                        <p className="text-center">A Fullstack newLetter website with subscription system, admin and staff panels and with push notifications enabled. Its also a PWA.</p>
                         <div className="viewProject">
                             <a href="https://itcsupreme.com/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
                         </div>
                     </div>
                 </div>
                 <div className='row' data-aos="fade-up">
-                    <div className='project-body col-md-6 col-12 ps-5 order-2 order-md-1' >
-                        <h1 className='project-title'>Vax Trax Global</h1>
-                        <p>An American startup to track the vaccine statuses for travelling passengers and for authorities that require vaccine certification.</p>
+                    <div className='project-body col-md-6 col-12 order-2 order-md-1' >
+                        <h1 className='project-title text-center'>Vax Trax Global</h1>
+                        <p className="text-center">An American startup to track the vaccine statuses for travelling passengers and for authorities that require vaccine certification.</p>
                         <div className="viewProject">
                             <a href="https://vaxtraxglobal-front.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
                         </div>
@@ -43,9 +43,9 @@ const Portfolio = () => {
                     <div className='col-md-6 col-12 d-flex align-items-center'>
                         <img src={`./screenshots/discordhome.jpeg`} alt="" className='project-img' />
                     </div>
-                    <div className='project-body col-md-6 col-12 ps-5' >
-                        <h1 className='project-title'>Discord Home </h1>
-                        <p>A norway based startup aimed to promote discord channels within each category.</p>
+                    <div className='project-body col-md-6 col-12' >
+                        <h1 className='project-title text-center'>Discord Home </h1>
+                        <p className="text-center">A norway based startup aimed to promote discord channels within each category.</p>
                         <div className="viewProject">
                             <a href="https://discordhome.com/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
                         </div>
@@ -55,9 +55,9 @@ const Portfolio = () => {
 
                 <div className={contentMore ? 'extra-projects' : 'none'}>
                     <div className='row' data-aos="fade-up">
-                        <div className='project-body col-md-6 col-12 ps-5 order-2 order-md-1' >
-                            <h1 className='project-title'>Sports-Dex</h1>
-                            <p>A USA based startup which provides till date updated records of basketball players.</p>
+                        <div className='project-body col-md-6 col-12 order-2 order-md-1' >
+                            <h1 className='project-title text-center'>Sports-Dex</h1>
+                            <p className="text-center">A USA based startup which provides till date updated records of basketball players.</p>
                             <div className="viewProject">
                                 <a href="https://sports-dex-53255.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
                             </div>
@@ -70,18 +70,18 @@ const Portfolio = () => {
                         <div className='col-md-6 col-12 d-flex align-items-center'>
                             <img src={`./screenshots/printribe.jpeg`} alt="" className='project-img' />
                         </div>
-                        <div className='project-body col-md-6 col-12 ps-5' >
-                            <h1 className='project-title'>Printribe</h1>
-                            <p>An Indian startup to provide merchandise customization and an e-commerce store.</p>
+                        <div className='project-body col-md-6 col-12' >
+                            <h1 className='project-title text-center'>Printribe</h1>
+                            <p className="text-center">An Indian startup to provide merchandise customization and an e-commerce store.</p>
                             <div className="viewProject">
                                 <a href="https://printribe-frontend.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
                             </div>
                         </div>
                     </div>
                     <div className='row' data-aos="fade-up">
-                        <div className='project-body col-md-6 col-12 ps-5 order-2 order-md-1' >
-                            <h1 className='project-title'>Braj Interiors</h1>
-                            <p>A portfolio design for a professional Indian heritage interior designer.</p>
+                        <div className='project-body col-md-6 col-12 order-2 order-md-1' >
+                            <h1 className='project-title text-center'>Braj Interiors</h1>
+                            <p className="text-center">A portfolio design for a professional Indian heritage interior designer.</p>
                             <div className="viewProject">
                                 <a href="https://braj-b633f.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
                             </div>

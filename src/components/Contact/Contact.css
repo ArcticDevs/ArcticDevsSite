@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 #footer {
   display: flex;
   flex-direction: row;
@@ -41,7 +44,6 @@
   border:0;
   border-radius: 10px;
   margin-bottom: 10px;
-  /* text-align: center; */
   padding:0 10px;
   font-size: 18px;
   margin-bottom:25px;
@@ -51,7 +53,6 @@
   outline: none;
   border:0;
   border-radius: 10px;
-  /* text-align: center; */
   padding:10px;
   font-size: 18px;
 }
@@ -88,9 +89,26 @@
 .mobile{
   width:270px;
 }
+
+.mobile:hover{
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+
+}
+
 .mobile i{
 margin-right:20px;
 }
+
+.email-footer {
+  font-size: 20px;
+  border-bottom:2px solid #fff;
+}
+
+.email-footer:hover{
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+
+}
+
 .footer-contact a {
   text-decoration: none;
   color: white;
@@ -101,6 +119,11 @@ margin-right:20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.socials a:hover{
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+
 }
 
 .footer-icons {
@@ -118,10 +141,7 @@ margin-right:20px;
   color: white;
   margin-bottom:8vh;
 }
-.email-footer {
-  font-size: 20px;
-  border-bottom:2px solid #fff;
-}
+
 @media screen and (max-width: 1100px) {
   #footer {
     flex-direction: column;

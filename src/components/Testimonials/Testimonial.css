@@ -42,6 +42,12 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
+
+.testimonial-arrow-right:hover, .testimonial-arrow-left:hover{
+  filter: drop-shadow(0 0 15px rgb(7, 146, 114));
+  -webkit-filter: drop-shadow(0 0 15px rgb(7, 146, 114));
+}
+
 .testimonial-arrow-left {
   position: absolute;
   width: 80px;

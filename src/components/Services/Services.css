@@ -11,11 +11,22 @@
   text-align: center;
   padding: 20px;
 }
+
+.top-box-service:hover{
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+  -webkit-filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+}
+
 .toppng {
   margin-top: 50px;
   width: 300px;
   height: 300px;
 }
+
+/* .toppng:hover{
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
+
+} */
 
 #services h1 {
   text-align: center;

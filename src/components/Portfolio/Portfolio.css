@@ -16,7 +16,7 @@
   font-size: 3rem;
   font-weight: 700;
   margin: 5vh auto;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .project-img {
@@ -25,16 +25,17 @@
 }
 
 .project-body p {
-  width: 70%;
+  width: 80%;
   font-size: 22px;
   line-height: 30px;
   letter-spacing: 1px;
   margin: auto;
 }
 
-.viewProject{
-width:70%;
-margin:auto;
+.viewProject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-body button {
@@ -45,7 +46,11 @@ margin:auto;
   color: white;
   background-color: inherit;
   font-size: 20px;
-  /* margin: 2rem auto; */
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
 }
 
 .project-body button i {
@@ -54,7 +59,11 @@ margin:auto;
 
 .project-body button:hover {
   cursor: pointer;
-  background-color: rgba(74, 77, 76, 0.267);
+  background: linear-gradient(
+    180deg,
+    rgba(86, 216, 234, 0.588) 0%,
+    rgba(78, 236, 200, 0.602) 100%
+  );
 }
 
 .row {
@@ -70,6 +79,16 @@ margin:auto;
   background-color: inherit;
   font-size: 20px;
   margin-bottom: 100px;
+  border-radius:10px;
+}
+
+.show-more:hover, .show-less:hover{
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(86, 216, 234, 0.588) 0%,
+    rgba(78, 236, 200, 0.602) 100%
+  );
 }
 
 .extra-projects {

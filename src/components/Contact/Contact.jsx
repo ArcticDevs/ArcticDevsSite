@@ -80,26 +80,15 @@ return (
         </p>
 
         <div className="socials">
-          <a href="https://www.facebook.com/arcticdevs/">
-            <img
-              className="footer-icons"
-              src={`./social-media/fb.png`}
-              alt=""
-            />
+          <a href="https://www.facebook.com/arcticdevs/" target="_blank" rel="noreferrer">
+            <i class="fab fa-facebook-square fa-2x"></i>
           </a>
-          {/* <a href=""> <img className='footer-icons' src={`./social-media/fiver.png`} alt="" /></a> */}
-          <a href="https://www.instagram.com/arctic_devs/">
-            {" "}
+          <a href="https://www.instagram.com/arctic_devs/" target="_blank" rel="noreferrer">
             <i class="fab fa-instagram fa-2x"></i>
           </a>
-          <a href="https://www.linkedin.com/in/arctic-devs/">
-            <img
-              className="footer-icons"
-              src={`./social-media/linkedin.png`}
-              alt=""
-            />
+          <a href="https://www.linkedin.com/in/arctic-devs/" target="_blank" rel="noreferrer">
+          <i class="fab fa-linkedin fa-2x"></i>
           </a>
-          {/* <a href=""><img className='footer-icons' src={`./social-media/upwork.png`} alt="" /></a> */}
         </div>
       </div>
       <div className="footer-msg">
@@ -133,7 +122,7 @@ return (
     </section>
 
     <div className="copyright">
-      <i class="far fa-copyright me-2 pt-1"></i> {date} - Arctic Devs
+      <i class="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://www.linkedin.com/in/arctic-devs/" target="_blank" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
     </div>
   </>
 );

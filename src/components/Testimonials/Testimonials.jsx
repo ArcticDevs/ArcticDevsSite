@@ -30,20 +30,18 @@ const Testimonial = () => {
       <h1>TESTIMONIALS</h1>
       <div className="testimonial" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        data-aos-duration="1000">
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
           <Card id={1} />
           <Card id={2} />
           <Card id={3} />
+          <Card id={4} />
         </Slider>
       </div>
     </div>
   );
 };
 
-// let itemList = testimonials.map((item,index)=>{
-//   return <li key={index}>{item}</li>
-// })
 
 const Card = ({ id }) => {
   return (

@@ -67,6 +67,11 @@
   -webkit-animation: arrowDown 3s infinite;
 }
 
+.nextSectionArrow:hover{
+  filter: drop-shadow(0 0 5px rgb(7, 146, 114));
+  -webkit-filter: drop-shadow(0 0 5px rgb(7, 146, 114));
+}
+
 @keyframes arrowDown {
   0% {
     bottom: 10%;
