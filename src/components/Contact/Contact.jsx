@@ -122,7 +122,7 @@ return (
     </section>
 
     <div className="copyright">
-      <i class="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://www.linkedin.com/in/arctic-devs/" target="_blank" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
+      <i class="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://arcticdevs.com" target="_blank" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
     </div>
   </>
 );
