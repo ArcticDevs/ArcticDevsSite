@@ -6,8 +6,12 @@ import React from 'react'
 const Home = () => {
     return (<>
         <div id='home'  >
-            {<img src={`./aurora.png`} style={{ zIndex: '-1', position: 'absolute', width: '100%', height: '100%' }} alt="" />}
+            {/* {<img src={`./aurora.png`} style={{ zIndex: '-1', position: 'absolute', width: '100%', height: '100%' }} alt="" />} */}
+            <video autoPlay muted loop spee style={{ zIndex: '-1', position: 'absolute'}}  >
+                <source src={`./video-aroras.mp4`} />
+            </video>
             <Navbar />
+            
             <div className='d-flex justify-content-center flex-column'>
                 <div className='home-title'>
                     <h1>The One Stop For All Websites and Applications</h1>

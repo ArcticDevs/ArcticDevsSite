@@ -1,11 +1,13 @@
 import './Services.css'
-
 import React from 'react'
+import Meteor from '../Meteor/Meteor'
+
 
 const Services = () => {
   return (<>
-
+     <div className='services-bg'>
     <section id="services" className='container-sm'>
+        
       <h1>Our Services</h1>
       <div className='d-flex justify-content-center'>
         <div className='top-box-service tops'>
@@ -60,11 +62,8 @@ const Services = () => {
           <p>We will provide you with your desired outcome in the fastest date possible from your day of order placement.</p>
         </div>
       </div>
-
-
-
     </section>
-
+</div> 
   </>)
 }
 

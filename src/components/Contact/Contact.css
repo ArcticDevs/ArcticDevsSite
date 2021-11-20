@@ -1,4 +1,4 @@
-a{
+a {
   text-decoration: none;
 }
 #footer {
@@ -8,6 +8,12 @@ a{
   position: relative;
   margin-bottom: 15vh;
 }
+.footer-bg {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
 .footer-head {
   font-family: "Playfair Display", serif;
   font-size: 3rem;
@@ -15,10 +21,9 @@ a{
   text-align: center;
   padding-bottom: 50px;
   margin-top: 15vh;
-  margin-bottom:5vh;
+  margin-bottom: 5vh;
   display: block;
-  filter:drop-shadow(0 0 10px rgb(7, 146, 114));
-
+  filter: drop-shadow(0 0 10px rgb(7, 146, 114));
 }
 .footer-msg {
   position: relative;
@@ -31,29 +36,29 @@ a{
     rgba(81, 235, 255, 0.588) 0%,
     rgba(78, 236, 200, 0.602) 100%
   );
-  min-height:60vh;
+  min-height: 60vh;
   border-radius: 25px;
   padding: 35px 25px;
-  max-width:400px;
+  max-width: 400px;
 }
 
 .footer-msg input {
   width: 100%;
   height: 40px;
   outline: none;
-  border:0;
+  border: 0;
   border-radius: 10px;
   margin-bottom: 10px;
-  padding:0 10px;
+  padding: 0 10px;
   font-size: 18px;
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 .footer-msg textarea {
   width: 100%;
   outline: none;
-  border:0;
+  border: 0;
   border-radius: 10px;
-  padding:10px;
+  padding: 10px;
   font-size: 18px;
 }
 
@@ -70,43 +75,41 @@ a{
   color: white;
   font-size: 17px;
   border-radius: 10px;
-  border:0;
+  border: 0;
   box-shadow: 0 0 5px rgb(112, 111, 111);
 }
 
 .footer-contact {
-  width:50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.mobileContainer{
-  text-align:left;
-  padding-left:100px;
+.mobileContainer {
+  text-align: left;
+  padding-left: 100px;
 }
 
-.mobile{
-  width:270px;
+.mobile {
+  width: 270px;
 }
 
-.mobile:hover{
+.mobile:hover {
   filter: drop-shadow(0 0 10px rgb(7, 146, 114));
-
 }
 
-.mobile i{
-margin-right:20px;
+.mobile i {
+  margin-right: 20px;
 }
 
 .email-footer {
   font-size: 20px;
-  border-bottom:2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
-.email-footer:hover{
+.email-footer:hover {
   filter: drop-shadow(0 0 10px rgb(7, 146, 114));
-
 }
 
 .footer-contact a {
@@ -115,15 +118,14 @@ margin-right:20px;
 }
 .socials {
   width: 100%;
-  max-width:300px;
+  max-width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.socials a:hover{
+.socials a:hover {
   filter: drop-shadow(0 0 10px rgb(7, 146, 114));
-
 }
 
 .footer-icons {
@@ -139,7 +141,7 @@ margin-right:20px;
   font-weight: 200;
   font-family: serif;
   color: white;
-  margin-bottom:8vh;
+  margin-bottom: 8vh;
 }
 
 @media screen and (max-width: 1100px) {
@@ -147,7 +149,7 @@ margin-right:20px;
     flex-direction: column;
     margin-top: 0px;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
   }
   .socials {
     margin: 10vh 0;
@@ -170,14 +172,12 @@ margin-right:20px;
     font-size: 2rem;
   }
 
-  .mobileContainer{
-  margin-bottom:5vh;
-
+  .mobileContainer {
+    margin-bottom: 5vh;
   }
   .footer-msg button {
     margin-left: 0px;
   }
-
 }
 @media screen and (max-width: 370px) {
   .footer-msg {

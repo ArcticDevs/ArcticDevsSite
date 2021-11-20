@@ -6,6 +6,10 @@ import TechStack from './components/TechStack/TechStack';
 import Portfolio from './components/Portfolio/Portfolio';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
+import './components/Meteor/Meteor.scss';
+import Meteor from './components/Meteor/Meteor';
+
+
 
 
 function App() {
@@ -13,6 +17,7 @@ function App() {
      
       
       <Home />
+      <Meteor />
       <Services />   
         <TechStack />
         <Portfolio />

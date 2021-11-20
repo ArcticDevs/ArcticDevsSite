@@ -2,6 +2,7 @@ import './Portfolio.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { useState } from 'react'
+import Meteor from '../Meteor/Meteor';
 
 const Portfolio = () => {
 
@@ -12,7 +13,9 @@ const Portfolio = () => {
     }
 
     return (<>
+        <div className='projects-ng'>
         <section id='projects' className='container-fluid'>
+        
             <h1>Portfolio</h1>
             <div className="container">
                 <div className='row' data-aos="fade-up">
@@ -101,6 +104,7 @@ const Portfolio = () => {
             </div>
 
         </section>
+      </div>
     </>
     )
 }

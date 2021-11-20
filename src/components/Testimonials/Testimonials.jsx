@@ -4,6 +4,7 @@ import "./Testimonial.css";
 
 import Slider from "react-slick";
 import testimonials from './TestimonialsContent.js'
+import Meteor from "../Meteor/Meteor";
 
 const PreviousBtn = (props) => {
   // console.log(props);
@@ -26,7 +27,9 @@ const NextBtn = (props) => {
 };
 const Testimonial = () => {
   return (
+    <div className='testimonial-bg'>
     <div id='testimonials'>
+      
       <h1>TESTIMONIALS</h1>
       <div className="testimonial" data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
@@ -38,6 +41,7 @@ const Testimonial = () => {
           <Card id={4} />
         </Slider>
       </div>
+    </div>
     </div>
   );
 };
