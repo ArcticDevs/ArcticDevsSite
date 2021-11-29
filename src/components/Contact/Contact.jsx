@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 
 import Swal from 'sweetalert2'
 import emailjs from "emailjs-com";
-import Meteor from '../Meteor/Meteor';
+
 
 const Contact = () => {
   const [date, setdate] = useState()
@@ -57,7 +57,9 @@ return (
   <div className='footer-bg'>
       
     <h1 className="footer-head">Contact Us</h1>
-    <section id="footer" className="container">
+    <section id="footer" className="container" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"  >
       <div className="footer-contact">
         <div className="mobileContainer">
 

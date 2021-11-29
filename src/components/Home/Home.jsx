@@ -2,12 +2,13 @@ import './Home.css'
 
 import Navbar from '../Navbar/Navbar'
 import React from 'react'
+import Wave from '../Wave/Wave'
 
 const Home = () => {
     return (<>
         <div id='home'  >
             {/* {<img src={`./aurora.png`} style={{ zIndex: '-1', position: 'absolute', width: '100%', height: '100%' }} alt="" />} */}
-            <video autoPlay muted loop spee style={{ zIndex: '-1', position: 'absolute'}}  >
+            <video autoPlay muted loop  style={{ opacity: "1", zIndex: '-1', position: 'absolute'}}  >
                 <source src={`./video-aroras.mp4`} />
             </video>
             <Navbar />
@@ -32,7 +33,8 @@ const Home = () => {
 
             </div>
 
-            <img src={`./curve.png`} className='img-curve' alt="" />
+            {/* <img src={`./curve (6).png`} className='img-curve' alt="" /> */}
+            <Wave />
         </div>
     </>)
 }

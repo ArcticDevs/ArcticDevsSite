@@ -1,10 +1,9 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonial.css";
-
 import Slider from "react-slick";
 import testimonials from './TestimonialsContent.js'
-import Meteor from "../Meteor/Meteor";
+
 
 const PreviousBtn = (props) => {
   // console.log(props);
@@ -31,9 +30,10 @@ const Testimonial = () => {
     <div id='testimonials'>
       
       <h1>TESTIMONIALS</h1>
-      <div className="testimonial" data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
+      <div className="testimonial" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0" >
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
           <Card id={1} />
           <Card id={2} />

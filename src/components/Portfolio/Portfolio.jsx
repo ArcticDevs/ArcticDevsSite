@@ -2,7 +2,7 @@ import './Portfolio.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { useState } from 'react'
-import Meteor from '../Meteor/Meteor';
+
 
 const Portfolio = () => {
 

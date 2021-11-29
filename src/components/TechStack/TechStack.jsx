@@ -1,7 +1,7 @@
 import './TechStack.css'
 
 import React from 'react'
-import Meteor from '../Meteor/Meteor'
+
 
 const TechStack = () => {
    return (<>

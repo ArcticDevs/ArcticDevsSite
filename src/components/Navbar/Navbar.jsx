@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-import React, { useState } from 'react'
+import React, { useState  } from 'react'
 
 const Navbar = () => {
 
@@ -9,11 +9,18 @@ const Navbar = () => {
 
     const togglenav = () => {
         setspread(!spread)
+        document.body.style.overflow ='visible';      
+    }
+
+    const stableNav = () =>{
+         setspread(!spread)
+
          if(!spread){
             document.body.style.overflow ='hidden';
          }else{
              document.body.style.overflow ='visible';
-         }   
+         }  
+
     }
 
 
@@ -31,7 +38,7 @@ const Navbar = () => {
                     <li><a onClick={togglenav} href='#footer' >Contact Us</a></li>
 
                 </ul>
-                {spread ? <i id='nav-icon' class="fas fa-times fa-2x" onClick={togglenav} ></i> : <i id='nav-icon' className="fas fa-bars fa-2x" onClick={togglenav}></i>}
+                {spread ? <i id='nav-icon' class="fas fa-times fa-2x" onClick={stableNav} ></i> : <i id='nav-icon' className="fas fa-bars fa-2x" onClick={stableNav}></i>}
             </div>
         </nav>
         {/* <video src={`./video.mp4`} loop auhrefPlay muted preload></video> */}
