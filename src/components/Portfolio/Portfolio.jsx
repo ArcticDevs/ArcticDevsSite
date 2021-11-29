@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <h1 className='project-title text-center'>ITC Supreme</h1>
                         <p className="text-center">A Fullstack newLetter website with subscription system, admin and staff panels and with push notifications enabled. Its also a PWA.</p>
                         <div className="viewProject">
-                            <a href="https://itcsupreme.com/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                            <a href="https://itcsupreme.com/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                         <h1 className='project-title text-center'>Vax Trax Global</h1>
                         <p className="text-center">An American startup to track the vaccine statuses for travelling passengers and for authorities that require vaccine certification.</p>
                         <div className="viewProject">
-                            <a href="https://vaxtraxglobal-front.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                            <a href="https://vaxtraxglobal-front.web.app/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                         </div>
                     </div>
                     <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>
@@ -50,7 +50,7 @@ const Portfolio = () => {
                         <h1 className='project-title text-center'>Discord Home </h1>
                         <p className="text-center">A norway based startup aimed to promote discord channels within each category.</p>
                         <div className="viewProject">
-                            <a href="https://discordhome.com/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                            <a href="https://discordhome.com/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                             <h1 className='project-title text-center'>Sports-Dex</h1>
                             <p className="text-center">A USA based startup which provides till date updated records of basketball players.</p>
                             <div className="viewProject">
-                                <a href="https://sports-dex-53255.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                                <a href="https://sports-dex-53255.web.app/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                             </div>
                         </div>
                         <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                             <h1 className='project-title text-center'>Printribe</h1>
                             <p className="text-center">An Indian startup to provide merchandise customization and an e-commerce store.</p>
                             <div className="viewProject">
-                                <a href="https://printribe-frontend.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                                <a href="https://printribe-frontend.web.app/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ const Portfolio = () => {
                             <h1 className='project-title text-center'>Braj Interiors</h1>
                             <p className="text-center">A portfolio design for a professional Indian heritage interior designer.</p>
                             <div className="viewProject">
-                                <a href="https://braj-b633f.web.app/" target="_blank" rel="noreferrer"><button>View Project<i class="fas fa-arrow-right"></i></button></a>
+                                <a href="https://braj-b633f.web.app/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                             </div>
                         </div>
                         <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>

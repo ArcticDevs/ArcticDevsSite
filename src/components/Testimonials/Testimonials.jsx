@@ -51,7 +51,7 @@ const Card = ({ id }) => {
   return (
     testimonials.map((item) => {
       if (item.id === id) {
-        return <div className='card-test'>
+        return <div className='card-test' key={item.id}>
           <img src={`./qoute-up.png`} className='quote-up' alt="" />
           <div className="content">
           <p>
@@ -60,10 +60,10 @@ const Card = ({ id }) => {
           
           <img src={`./quote-down.png`} className='quote-down' alt="" />
           </div>
-          <p className=''>
+         
             <p className='m-0'>{item.name},</p>
             <p>{item.place}</p>
-          </p>
+          
         </div>
       }
       return null;

@@ -15,9 +15,6 @@ const Contact = () => {
     setdate(date)
   }, [])
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
 
   const sendMail = (e) => {
     e.preventDefault();
@@ -64,35 +61,35 @@ return (
         <div className="mobileContainer">
 
           <p className="mobile">
-            <i class="fas fa-phone fa-1x"></i>
+            <i className="fas fa-phone fa-1x"></i>
             <a href="tel:+917414027000 ">+91 7414027000 </a>
           </p>
 
           <p className="mobile">
-            <i class="fas fa-phone fa-1x"></i>
+            <i className="fas fa-phone fa-1x"></i>
             <a href="tel:+918094818740 ">+91 8094818740 </a>
           </p>
 
           <p className="mobile">
-            <i class="fas fa-phone fa-1x"></i>
+            <i className="fas fa-phone fa-1x"></i>
             <a href="te:+1(501)386-0787">+1 (501)386-0787</a>
           </p>
         </div>
 
         <p className="email-footer">
-          <i class="fas fa-envelope"></i>{" "}
+          <i className="fas fa-envelope"></i>{" "}
           <a href="mailto:connect@arcticdevs.com">connect@arcticdevs.com</a>
         </p>
 
         <div className="socials">
           <a href="https://www.facebook.com/arcticdevs/" target="_blank" rel="noreferrer">
-            <i class="fab fa-facebook-square fa-2x"></i>
+            <i className="fab fa-facebook-square fa-2x"></i>
           </a>
           <a href="https://www.instagram.com/arctic_devs/" target="_blank" rel="noreferrer">
-            <i class="fab fa-instagram fa-2x"></i>
+            <i className="fab fa-instagram fa-2x"></i>
           </a>
           <a href="https://www.linkedin.com/in/arctic-devs/" target="_blank" rel="noreferrer">
-          <i class="fab fa-linkedin fa-2x"></i>
+          <i className="fab fa-linkedin fa-2x"></i>
           </a>
         </div>
       </div>
@@ -103,14 +100,14 @@ return (
             name="name"
             placeholder="Enter your name"
             required
-            onChange={(e) => setName(e.target.value)}
+           
           />
           <input
             type="text"
             name="user_email"
             placeholder="Enter your email ID"
             required
-            onChange={(e) => setEmail(e.target.value)}
+           
           />
           <textarea
             id=""
@@ -119,7 +116,7 @@ return (
             name="message"
             placeholder="Message"
             required
-            onChange={(e) => setMessage(e.target.value)}
+            
           ></textarea>
           <button>Submit</button>
         </form>
@@ -127,7 +124,7 @@ return (
     </section>
 
     <div className="copyright">
-      <i class="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://arcticdevs.com" target="_blank" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
+      <i className="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://arcticdevs.com" target="_blank" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
     </div>
     </div>
   </>
