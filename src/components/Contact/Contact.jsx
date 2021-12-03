@@ -5,7 +5,6 @@ import React, { useEffect, useState } from 'react'
 import Swal from 'sweetalert2'
 import emailjs from "emailjs-com";
 
-
 const Contact = () => {
   const [date, setdate] = useState()
 
@@ -124,7 +123,7 @@ return (
     </section>
 
     <div className="copyright">
-      <i className="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://arcticdevs.com" target="_blank" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
+      <i className="far fa-copyright me-2 pt-1"></i> {date} - <a href="https://arcticdevs.com" rel="noreferrer" className="ms-2 text-white">Arctic Devs</a>
     </div>
     </div>
   </>

@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { useState } from 'react'
 
-
 const Portfolio = () => {
 
     const [contentMore, setcontentMore] = useState(false)
@@ -62,7 +61,7 @@ const Portfolio = () => {
                             <h1 className='project-title text-center'>Sports-Dex</h1>
                             <p className="text-center">A USA based startup which provides till date updated records of basketball players.</p>
                             <div className="viewProject">
-                                <a href="https://sports-dex-53255.web.app/" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
+                                <a href="https://sports-dex-2021.web.app" target="_blank" rel="noreferrer"><button>View Project<i className="fas fa-arrow-right"></i></button></a>
                             </div>
                         </div>
                         <div className='col-md-6 col-12 d-flex align-items-center order-1 order-md-2'>
